@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awareness Campaign - Home</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen flex flex-col">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md py-4 px-6 md:px-10 lg:px-16 rounded-b-lg">
+        <nav class="flex justify-between items-center max-w-7xl mx-auto">
+            <a href="#" class="text-2xl font-bold text-indigo-700">AwareNow</a>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="text-gray-700 hover:text-indigo-600 font-medium">Home</a></li>
+                <li><a href="#about" class="text-gray-700 hover:text-indigo-600 font-medium">About</a></li>
+                <li><a href="#impact" class="text-gray-700 hover:text-indigo-600 font-medium">Sign Up</a></li>
+                <li><a href="awareness.html" class="text-gray-700 hover:text-indigo-600 font-medium">Learn More</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="flex-grow flex items-center justify-center py-12 px-6 md:px-10 lg:px-16">
+        <section class="text-center max-w-4xl mx-auto bg-white p-8 md:p-12 lg:p-16 rounded-3xl shadow-xl">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                Empower Change Through Awareness
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+                Join us in spreading vital information and fostering understanding on critical issues affecting our community and the world.
+            </p>
+            <a href="signup.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                Donate
+            </a>
+        </section>
+    </main>
+
+    <!-- Features/Impact Section -->
+    <section id="about" class="py-16 px-6 md:px-10 lg:px-16 bg-white rounded-t-3xl shadow-inner">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-10">Why Awareness Matters</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-blue-50 p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-indigo-500 text-5xl mb-4">💡</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Informed Decisions</h3>
+                    <p class="text-gray-600">Knowledge empowers individuals to make better choices for themselves and their communities.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-green-50 p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-green-500 text-5xl mb-4">🤝</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Community Engagement</h3>
+                    <p class="text-gray-600">Awareness fosters collective action and strengthens social bonds.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-red-50 p-6 rounded-2xl shadow-md transform hover:scale-105 transition duration-300 ease-in-out">
+                    <div class="text-red-500 text-5xl mb-4">🌍</div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3">Global Impact</h3>
+                    <p class="text-gray-600">Addressing global challenges starts with understanding their roots and effects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-8 px-6 md:px-10 lg:px-16 mt-auto rounded-t-lg">
+        <div class="max-w-7xl mx-auto text-center">
+            <p>&copy; 2025 AwareNow. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white transition duration-300">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
